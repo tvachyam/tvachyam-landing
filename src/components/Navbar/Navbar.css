@@ -1,0 +1,50 @@
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+
+/* 🔥 UPDATED: soft luxury background */
+background: rgba(247, 243, 235, 0.7);
+
+/* 🔥 NEW: glassmorphism effect */
+backdrop-filter: blur(10px);
+
+/* 🔥 NEW: subtle border instead of hard edge */
+border-bottom: 1px solid #E8E1D8;
+
+position:sticky;
+top:0;
+z-index:100;
+}
+.logo{
+font-family: 'Playfair Display', serif; /* 🔥 UPDATED */
+font-size:24px; /* 🔥 UPDATED */
+font-weight:500;
+letter-spacing:1.5px; /* 🔥 UPDATED */
+color:#2F2F2F;
+}
+.nav-btn{
+background:#b2c099; /* 🔥 UPDATED (deep sage) */
+color:white;
+padding:14px 30px;
+border-radius:8px; /* 🔥 UPDATED (pill shape) */
+
+border:none;
+
+/* 🔥 NEW: soft shadow */
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+/* 🔥 NEW: smooth transition */
+transition: all 0.3s ease;
+cursor:pointer;
+}
+.nav-btn:hover{
+background:#7C9D78;
+
+/* 🔥 NEW: lift effect */
+transform: translateY(-2px);
+
+/* 🔥 NEW: stronger shadow */
+box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}

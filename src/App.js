@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+// import BrandStory from "./components/BrandStory/BrandStory";
+import BambooBenefits from "./components/BambooBenefits/BambooBenefits";
+import Lifestyle from "./components/Lifestyle/Lifestyle";
+import Signup from "./components/Signup/Signup";
+import Footer from "./components/Footer/Footer";
+import BrandStory from "./components/BrandStory/BrandStory";
+import About from "./components/About/About";
+import Timeline from "./Timeline/Timeline";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true
+        })
+    }, [])
+
+    return (
+        <div>
+
+            <Navbar />
+            <Hero />
+            <About/>
+            <Timeline/>
+            <BambooBenefits />
+            <BrandStory />
+            <Lifestyle />
+            <Signup />
+            <Footer />
+
+        </div>
+    );
 }
 
 export default App;

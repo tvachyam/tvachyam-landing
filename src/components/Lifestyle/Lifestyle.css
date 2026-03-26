@@ -1,0 +1,16 @@
+.lifestyle{
+text-align:center;
+background:#382a21;
+padding:100px 10%;
+/* border-radius:20px; */
+}
+
+.lifestyle h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.lifestyle p{
+color:#fff;
+font-size:17px;
+}

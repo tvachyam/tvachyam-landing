@@ -1,0 +1,124 @@
+/* .signup {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+.subtext {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    background: #A8BBA3;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+    margin-top: 10px;
+} */
+
+/* 🌿 SECTION BACKGROUND */
+.signup{
+padding:120px 10%;
+background:#F7F3EB;
+display:flex;
+justify-content:center;
+}
+
+/* 🔥 CARD */
+.signup-card{
+background:#ffffff;
+padding:50px 40px;
+border-radius:16px;
+width:100%;
+max-width:420px;
+text-align:center;
+
+/* soft luxury shadow */
+box-shadow:0 20px 50px rgba(0,0,0,0.08);
+}
+
+/* HEADING */
+.signup-card h2{
+font-size:28px;
+margin-bottom:15px;
+}
+
+/* SUBTEXT */
+.subtext{
+color:#777;
+margin-bottom:30px;
+font-size:15px;
+}
+
+/* FORM */
+form{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+/* INPUT */
+input{
+padding:14px;
+border-radius:8px;
+border:1px solid #ddd;
+font-size:14px;
+
+/* smooth focus */
+transition:all 0.3s ease;
+}
+
+/* 🔥 FOCUS EFFECT */
+input:focus{
+outline:none;
+border-color:#b2c099;
+box-shadow:0 0 0 3px rgba(168,187,163,0.2);
+}
+
+/* BUTTON */
+.submit-btn{
+background:#b2c099;
+color:white;
+padding:14px;
+border-radius:8px;
+font-weight:600;
+margin-top:10px;
+transition:all 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT */
+.submit-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* 📱 MOBILE */
+@media(max-width:768px){
+
+.signup{
+padding:80px 6%;
+}
+
+.signup-card{
+padding:40px 25px;
+}
+
+}

@@ -12,18 +12,24 @@ function About() {
           <h2>About Tvachyam</h2>
 
           <p>
-            Tvachyam was born from a simple belief —
-            comfort should not be a luxury.
+            We didn’t start TVACHYAM because the world needed another clothing brand.
+            It didn’t.
           </p>
 
           <p>
-            In a world that moves fast, we wanted to create something that slows you down.
-            Something that feels soft on your skin, light on your body, and calming to your mind.
+            We started it because everything was either overpriced, uncomfortable, or trying too hard.
           </p>
 
           <p>
-            Crafted from breathable bamboo fabric,
-            every piece is designed to bring you closer to comfort — naturally.
+            So we made something simple:
+            clothes that feel good, look effortless, and don’t scream for attention.
+          </p>
+          <p>
+            Because confidence doesn’t have to be loud.
+            It just has to be real.
+          </p>
+          <p>
+            TVACHYAM is less about fashion, more about how you feel living in it.
           </p>
 
         </div>

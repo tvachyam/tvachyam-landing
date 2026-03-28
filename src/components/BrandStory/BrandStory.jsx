@@ -8,7 +8,11 @@ function BrandStory() {
       <div className="story-container">
 
         {/* NEW: image side */}
-        <div className="story-image" data-aos="fade-right"></div>
+        <div className="story-image" data-aos="fade-right">
+          <img
+            src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1200&q=80"
+            alt="Tvachyam" />
+        </div>
 
         {/* NEW: text side */}
         <div className="story-text" data-aos="fade-left">

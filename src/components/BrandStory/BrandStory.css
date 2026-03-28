@@ -1,35 +1,98 @@
-/* 🔥 UPDATED BrandStory.css */
 .brand-story {
-    padding: 100px 10%;
-    background: #F7F3EB;
+  padding: 100px 8%;
+  background: #F7F3EB;
 }
 
+/* CONTAINER */
 .story-container {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    flex-wrap: wrap;
-    background-color: #F7F3EB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
 }
 
+/* IMAGE */
 .story-image {
-    flex: 1;
-    height: 400px;
-    background: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7") center/cover no-repeat;
-    /* border-radius:12px; */
+  flex: 1;
+  min-width: 300px;
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+
+  /* fallback background (optional) */
+  background-color: #ddd;
 }
 
+/* IMAGE TAG */
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* TEXT */
 .story-text {
-    flex: 1;
+  flex: 1;
+  max-width: 520px;
 }
 
 .story-text h2 {
-    font-size: 34px;
-    margin-bottom: 20px;
+  font-size: clamp(26px, 4vw, 36px);
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #1f1f1f;
+  letter-spacing: 0.5px;
 }
 
 .story-text p {
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 15px;
+  font-size: clamp(14px, 1.8vw, 16px);
+  color: #555;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+/* 📱 Tablet */
+@media (max-width: 1024px) {
+  .brand-story {
+    padding: 80px 6%;
+  }
+
+  .story-container {
+    gap: 40px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .story-container {
+    flex-direction: column;
+  }
+
+  .story-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .story-text {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+/* 📱 Small Mobile */
+@media (max-width: 480px) {
+  .brand-story {
+    padding: 60px 20px;
+  }
+
+  .story-text h2 {
+    font-size: 24px;
+  }
+
+  .story-image {
+    height: 260px;
+  }
 }

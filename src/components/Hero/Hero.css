@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   min-height: 600px;
-
+  background-image: url("../../Assets/Hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -78,6 +78,7 @@
   .hero {
     align-items: flex-end;
     padding-bottom: 60px;
+    background: url("../../Assets/hero-mob.png");
   }
 
   .hero-content {

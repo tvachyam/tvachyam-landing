@@ -1,16 +1,23 @@
 // 🔥 UPDATED Hero.js
 import "./Hero.css";
-
+import heroImg from "../../Assets/Hero.png";
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero"
+      style={{
+        backgroundImage: `url(${heroImg})`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+      }}
+    >
 
       {/* NEW: overlay for luxury feel */}
       <div className="overlay"></div>
 
       <div className="hero-content" data-aos="fade-up">
         <h1>
-          Designed for your skin. <br/> Crafted for your comfort.
+          Designed for your skin. <br /> Crafted for your comfort.
         </h1>
 
         <p>

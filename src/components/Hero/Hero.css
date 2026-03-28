@@ -4,7 +4,7 @@
 height:100vh;
 
 /* NEW: luxury background image */
-background:url("https://images.unsplash.com/photo-1505691938895-1758d7feb511") no-repeat center/cover;
+/* background:url("https://images.unsplash.com/photo-1505691938895-1758d7feb511") no-repeat center/cover; */
 
 display:flex;
 justify-content:center;

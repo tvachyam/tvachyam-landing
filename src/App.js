@@ -11,7 +11,7 @@ import Signup from "./components/Signup/Signup";
 import Footer from "./components/Footer/Footer";
 import BrandStory from "./components/BrandStory/BrandStory";
 import About from "./components/About/About";
-import Timeline from "./Timeline/Timeline";
+import Timeline from "./components/Timeline/Timeline";
 
 function App() {
 

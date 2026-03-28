@@ -23,7 +23,7 @@ const timelineData = [
     "month": "Mar",
     "stage": "Material Selection",
     "description": "Choosing breathable bamboo for everyday comfort.",
-    "completed": false
+    "completed": true
   },
   {
     "month": "Apr",

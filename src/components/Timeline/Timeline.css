@@ -1,12 +1,13 @@
 .timeline{
-padding:100px 10%;
+padding:0px 10%;
 background:#F7F3EB;
 text-align:center;
 }
 
 .timeline-title{
 font-size:30px;
-margin-bottom:60px;
+margin : 0px 0px 60px 0px;
+/* margin-bottom:60px; */
 }
 
 /* CONTAINER */
@@ -72,15 +73,59 @@ margin-bottom:5px;
 font-size:14px;
 color:#333;
 }
-@media(max-width:768px){
+@media (max-width: 768px) {
 
-.timeline-container{
-flex-direction:column;
-gap:30px;
-}
+  .timeline-container {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 30px; /* space for vertical line */
+  }
 
-.line{
-display:none;
-}
+  /* 🔥 Vertical line */
+  .timeline-container::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #382a21;
+  }
 
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+  }
+
+  /* remove horizontal line */
+  .line {
+    display: none;
+  }
+
+  /* circle alignment */
+  .circle {
+    margin: 0;
+    min-width: 30px;
+    height: 30px;
+  }
+
+  /* text wrapper (optional improvement) */
+  .timeline-item .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .month {
+    font-size: 12px;
+  }
+
+  .stage {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }

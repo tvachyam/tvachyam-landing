@@ -1,14 +1,15 @@
 // 🔥 UPDATED Hero.js
 import "./Hero.css";
+import heroImg from"../../assets/hero.png"
 function Hero() {
   return (
     <section className="hero"
-    // style={{
-    //   backgroundImage: `url(${heroImg})`,
-    //   backgroundRepeat: "no-repeat",
-    //   backgroundPosition: "center",
-    //   backgroundSize: "cover",
-    // }}
+    style={{
+      backgroundImage: `url(${heroImg})`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+    }}
     >
 
       {/* NEW: overlay for luxury feel */}

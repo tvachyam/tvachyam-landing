@@ -1,0 +1,119 @@
+.founders {
+  padding: 100px 8%;
+  background: #F7F3EB;
+}
+
+.founders-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Title */
+.founders-title {
+  font-size: clamp(26px, 4vw, 34px);
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+}
+
+.founders-subtitle {
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.founders-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* Card */
+.founder-card {
+  text-align: left;
+}
+
+/* 🔥 Image */
+.image-wrapper {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* subtle zoom */
+.founder-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Name */
+.founder-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Description */
+.founder-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Footer */
+.founders-footer {
+  margin-top: 80px;
+  padding-top: 30px;
+  border-top: 1px solid #e5ded3;
+}
+
+.founders-footer h4 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.founders-footer p {
+  font-size: 18px;
+  color: #222;
+  font-weight: 500;
+}
+
+/* 📱 Tablet */
+@media (max-width: 1024px) {
+  .founders-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .founders {
+    padding: 60px 20px;
+  }
+
+  .founders-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .founder-card {
+    text-align: center;
+  }
+
+  .image-wrapper {
+    height: 240px;
+  }
+}

@@ -1,11 +1,10 @@
 // 🔥 UPDATED Hero.js
 import "./Hero.css";
-import heroImg from"../../assets/hero.png"
 function Hero() {
   return (
     <section className="hero"
     style={{
-      backgroundImage: `url(${heroImg})`,
+      backgroundImage: `url("/hero.png")`,
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",
       backgroundSize: "cover",

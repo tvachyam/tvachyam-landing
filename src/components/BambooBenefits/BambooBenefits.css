@@ -36,18 +36,18 @@
 .large {
     grid-row: span 2;
 
-    background-image: url("https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80");
+    background-image: url("/public/breathable.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .benefit:nth-child(2) {
-    background: url("https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=800&q=80") center/cover;
+    background: url("/public/gentle.png") center/cover;
 }
 
 .benefit:nth-child(3) {
-    background: url("https://images.unsplash.com/photo-1524594154908-edd0acb0d8aa?auto=format&fit=crop&w=800&q=80") center/cover;
+    background: url("/public/sustainable.png") center/cover;
 }
 
 .overlay {

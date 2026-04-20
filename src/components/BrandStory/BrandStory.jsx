@@ -10,7 +10,7 @@ function BrandStory() {
         {/* NEW: image side */}
         <div className="story-image" data-aos="fade-right">
           <img
-            src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1200&q=80"
+            src="/brand_story.png"
             alt="Tvachyam" />
         </div>
 

@@ -35,7 +35,14 @@ function About() {
         </div>
 
         {/* IMAGE */}
-        <div className="about-image" data-aos="fade-left"></div>
+        <div className="about-image"
+          style={{
+            backgroundImage: `url("/about.png")`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+          data-aos="fade-left"></div>
 
       </div>
 

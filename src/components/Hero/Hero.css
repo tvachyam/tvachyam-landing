@@ -2,7 +2,7 @@
   height: 100vh;
   min-height: 600px;
   width: 100%;
-background-image: url("/public/hero.png"); /* desktop */
+  background-image: url("/public/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -68,7 +68,8 @@ background-image: url("/public/hero.png"); /* desktop */
   .hero {
     height: 90vh;
     background-image: url("/public/hero_mobile.png");
-    background-position: center top; /* adjust if needed */
+    background-position: center top;
+    /* adjust if needed */
   }
 
   .hero-content {
@@ -81,7 +82,7 @@ background-image: url("/public/hero.png"); /* desktop */
   .hero {
     align-items: flex-end;
     padding-bottom: 60px;
-    
+
   }
 
   .hero-content {

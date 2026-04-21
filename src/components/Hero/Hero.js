@@ -2,14 +2,7 @@
 import "./Hero.css";
 function Hero() {
   return (
-    <section className="hero"
-    style={{
-      backgroundImage: `url("/hero.png")`,
-      backgroundRepeat: "no-repeat",
-      backgroundPosition: "center",
-      backgroundSize: "cover",
-    }}
-    >
+    <section className="hero">
 
       {/* NEW: overlay for luxury feel */}
       <div className="overlay"></div>

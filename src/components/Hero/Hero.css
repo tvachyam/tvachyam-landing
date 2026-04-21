@@ -2,6 +2,10 @@
   height: 100vh;
   min-height: 600px;
   
+background-image: url("/public/hero.png"); /* desktop */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   display: flex;
   justify-content: center;
@@ -63,6 +67,8 @@
 @media (max-width: 768px) {
   .hero {
     height: 90vh;
+    background-image: url("/public/hero_mobile.png");
+    background-position: center top; /* adjust if needed */
   }
 
   .hero-content {

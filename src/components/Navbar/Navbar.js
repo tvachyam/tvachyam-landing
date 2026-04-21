@@ -3,7 +3,6 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-
       <div className="logo">Tvachyam</div>
 
       <a href="#signup">
@@ -11,7 +10,6 @@ function Navbar() {
           Join Founder's Club
         </button>
       </a>
-
     </nav>
   );
 }

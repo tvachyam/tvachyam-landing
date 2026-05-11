@@ -34,7 +34,7 @@ function App() {
             <BrandStory />
             <Lifestyle />
             <Signup />
-            <Founders/>
+            {/* <Founders/> */}
             <Footer />
 
         </div>
